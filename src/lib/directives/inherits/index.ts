@@ -15,5 +15,4 @@
  * limitations under the License.
  */
 
-export * from './length';
-export * from './inherits';
+export * from './inherits.directive';
