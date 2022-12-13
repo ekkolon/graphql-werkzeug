@@ -15,6 +15,4 @@
  * limitations under the License.
  */
 
-export * from './lib/common';
-export * from './lib/directive-definition';
-export * from './lib/directives';
+export * from './length';
