@@ -21,5 +21,5 @@ npm install @ekkolon/graphql-werkzeug
 
 [gts-image]: https://img.shields.io/badge/code%20style-google-blueviolet.svg
 [gts-url]: https://github.com/google/gts
-[npm-image]: https://img.shields.io/npm/v/graphql-werkzeug.svg
-[npm-url]: https://npmjs.org/package/graphql-werkzeug
+[npm-image]: https://img.shields.io/npm/v/@ekkolon/graphql-werkzeug.svg
+[npm-url]: https://npmjs.org/package/@ekkolon/graphql-werkzeug
