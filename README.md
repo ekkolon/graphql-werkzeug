@@ -50,11 +50,11 @@ Please adhere to this project's [Code of Conduct](/CODE_OF_CONDUCT.md).
 ## Acknowledgements
 
 - [GraphQL Tools](https://github.com/ardatan/graphql-tools)
-    
-    GraphQL Werkzeug is built around tools provided by @graphql-tools.  
+  GraphQL Werkzeug is built around tools provided by @graphql-tools.
+
 ## Feedback
 
-If you have any feedback, please reach out to me by [email][github-email].
+If you have any feedback, please reach out to me via [E-Mail](mailto:18242749+ekkolon@users.noreply.github.com).
 
 [gts-image]: https://img.shields.io/badge/code%20style-google-blueviolet.svg
 [gts-url]: https://github.com/google/gts
