@@ -1,21 +1,45 @@
 <div>
-    <img align="left" style="margin-right:16px" width="32" height="32" src="assets/graphql-werkzeug-logo.svg" alt="GraphQL Werkzeug Logo">
-    <h1 style="line-height: 32px">GraphQL Werkzeug</h1>
+    <img align="left" style="margin-right:8px" width="32" height="32" src="assets/graphql-werkzeug-logo.svg" alt="GraphQL Werkzeug Logo">
+    <h1 style="line-height: 32px">GraphQL Werkzeug</h1> 
 </div>
 
 [![NPM Version][npm-image]][npm-url]
 [![TypeScript Style Guide][gts-image]][gts-url]
 
-[GraphQL Werkzeug][npm-url] contains a collection of useful directives for your next GraphQL schema.
+<h3>A powerful collection of pre-built directives for your GraphQL projects.</h3>
+
+This project makes it easy to add advanced functionality to your GraphQL schema, allowing you to customize your API to fit your specific needs.
+
+With [GraphQL Werkzeug][npm-url], you can easily compose types, enforce value restrictions and access permissions and other important features to your GraphQL API.
+
+Try it out today and see how it can improve your GraphQL development process.
+
+_Note: This project is still under active development. Therefore, some features may change at any time._
+
+## Table of content
+
+- [Features](#features)
+  - [Directives](#directives)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Feedback](#feedback)
 
 ## Features
 
-> There are more features to come!
-
 ### Directives
 
-- [length](/src/lib/directives/length/length.directive.ts)
-- [inherits](/src/lib/directives/inherits/inherits.directive.ts)
+| Name                                    | Description                                                                |
+| --------------------------------------- | -------------------------------------------------------------------------- |
+| [inherits](/docs/inherits_directive.md) | Augments a type with fields from a set of other types in a GraphQL schema. |
+| length                                  | Enforce a minimum/maximum length for a string-valued field.                |
+| auth (WIP)                              | Enforce access permissions on object types and object fields.              |
+| date (WIP)                              | Format Date strings.                                                       |
+| uppercase (WIP)                         | Convert string-valued field to uppercase                                   |
+| lowercase (WIP)                         | Convert string-valued field to lowercase                                   |
 
 ## Installation
 
@@ -30,6 +54,10 @@ Install GraphQL Werkzeug with yarn
 ```bash
 yarn add @ekkolon/graphql-Werkzeug
 ```
+
+## Usage
+
+See the [Directives](#directives) section and click on the links to find out more about a specific directive's signature, usage and examples.
 
 ## Contributing
 
