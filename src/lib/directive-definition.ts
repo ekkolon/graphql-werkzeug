@@ -18,9 +18,16 @@
 import {GraphQLSchema} from 'graphql';
 
 /**
+ * A type representing a function that transforms a GraphQLSchema.
+ *
+ * @publicApi
+ */
+export type DirectiveTransformer = (schema: GraphQLSchema) => GraphQLSchema;
+
+/**
  * Interface for a directive definition.
  */
 export interface DirectiveDefinition {
   typeDefs: string;
-  transformer: (schema: GraphQLSchema) => GraphQLSchema;
+  transformer: DirectiveTransformer;
 }
