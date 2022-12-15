@@ -45,15 +45,6 @@ const isInheritable = (type: unknown): type is Inheritable => {
   );
 };
 
-// const isObjectType = (type: unknown): type is GraphQLObjectType =>
-//   type instanceof GraphQLObjectType;
-//
-// const isInterfaceType = (type: unknown): type is GraphQLInterfaceType =>
-//   type instanceof GraphQLInterfaceType;
-//
-// const isInputType = (type: unknown): type is GraphQLInputObjectType =>
-//   type instanceof GraphQLInputObjectType;
-
 const DIRECTIVE_LOCATIONS = 'OBJECT | INPUT_OBJECT | INTERFACE';
 
 /**
