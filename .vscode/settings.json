@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "common",
         "assets",
+        "tests",
         "directives"
     ]
 }

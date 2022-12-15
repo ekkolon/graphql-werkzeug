@@ -15,4 +15,4 @@
  * limitations under the License.
  */
 
-export * from './inherits.directive';
+export {inheritsDirectiveDefinitionFactory} from './inherits.directive';
