@@ -45,7 +45,7 @@ const isInheritable = (type: unknown): type is Inheritable => {
   );
 };
 
-const DIRECTIVE_LOCATIONS = 'OBJECT | INPUT_OBJECT | INTERFACE';
+export const DIRECTIVE_LOCATIONS = 'OBJECT | INPUT_OBJECT | INTERFACE';
 
 /**
  * Generates a generic function for MapperKinds in the inheritsDirectiveFactory.
