@@ -1,8 +1,8 @@
-name: "Node Continous Integration"
+name: 'Node Continous Integration'
 
 on:
   pull_request:
-    branches: [ "main" ]
+    branches: ['main']
 
 jobs:
   test_pull_request:
