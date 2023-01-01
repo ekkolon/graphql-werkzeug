@@ -39,7 +39,7 @@ _Note: This project is still under active development. Therefore, some features 
 | auth (WIP)                                | Enforce access permissions on object types and object fields.              |
 | date (WIP)                                | Format Date strings.                                                       |
 | [uppercase](/docs/uppercase_directive.md) | Convert string-valued field to uppercase                                   |
-| lowercase (WIP)                           | Convert string-valued field to lowercase                                   |
+| [lowercase](/docs/lowercase_directive.md) | Convert string-valued field to lowercase                                   |
 
 ## Installation
 

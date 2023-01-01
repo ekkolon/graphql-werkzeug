@@ -15,7 +15,4 @@
  * limitations under the License.
  */
 
-export * from './inherits';
-export * from './length';
-export * from './lowercase';
-export * from './uppercase';
+export {lowercaseDirectiveDefinitionFactory} from './lowercase.directive';
