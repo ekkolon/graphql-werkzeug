@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/ekkolon/graphql-werkzeug"
   },
-  "description": "A collection of useful directives for your GraphQL schema",
+  "description": "A powerful collection of pre-built directives for your GraphQL projects",
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "files": [
