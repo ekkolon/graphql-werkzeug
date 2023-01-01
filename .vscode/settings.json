@@ -1,3 +1,9 @@
 {
-  "conventionalCommits.scopes": ["common", "assets", "tests", "directives"]
+  "conventionalCommits.scopes": [
+    "common",
+    "assets",
+    "tests",
+    "directives",
+    "dev-deps"
+  ]
 }
