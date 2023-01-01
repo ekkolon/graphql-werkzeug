@@ -4,5 +4,6 @@
     "rootDir": ".",
     "outDir": "build"
   },
-  "include": ["src/**/*.ts", "test/**/*.ts"]
+  "exclude": ["**/*.spec.ts", "jest.config.ts", "**/*.test.ts"],
+  "include": ["src/**/*.ts"]
 }
