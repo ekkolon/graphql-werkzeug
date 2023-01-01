@@ -25,7 +25,7 @@ import {
 
 import {DirectiveDefinition} from '../../directive-definition';
 
-export const DIRECTIVE_LOCATIONS = `FIELD_DEFINITION`;
+export const DIRECTIVE_LOCATIONS = 'FIELD_DEFINITION';
 
 const lowercaseDirectiveMapperFactory = (
   schema: GraphQLSchema,
