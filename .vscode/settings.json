@@ -4,6 +4,7 @@
     "assets",
     "tests",
     "directives",
-    "dev-deps"
+    "dev-deps",
+    "release"
   ]
 }
