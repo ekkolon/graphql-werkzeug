@@ -50,7 +50,7 @@ _Note: This project is still under active development. Therefore, some features 
 | [inherits](/docs/inherits_directive.md)   | Augments a type with fields from a set of other types in a GraphQL schema. |
 | [length](/docs/length_directive.md)       | Enforce a minimum/maximum length for a string-valued field.                |
 | auth (WIP)                                | Enforce access permissions on object types and object fields.              |
-| date (WIP)                                | Format Date strings.                                                       |
+| [date](/docs/date_directive.md)           | Format Date strings.                                                       |
 | [uppercase](/docs/uppercase_directive.md) | Convert string-valued field to uppercase                                   |
 | [lowercase](/docs/lowercase_directive.md) | Convert string-valued field to lowercase                                   |
 
