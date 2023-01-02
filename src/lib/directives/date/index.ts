@@ -15,8 +15,4 @@
  * limitations under the License.
  */
 
-export * from './date';
-export * from './inherits';
-export * from './length';
-export * from './lowercase';
-export * from './uppercase';
+export * from './date.directive';
