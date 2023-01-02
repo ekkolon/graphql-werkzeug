@@ -1,16 +1,29 @@
-<div>
-    <img align="left" style="margin-right:8px" width="32" height="32" src="assets/graphql-werkzeug-logo.svg" alt="GraphQL Werkzeug Logo">
-    <h1 style="line-height: 32px">GraphQL Werkzeug</h1> 
+<h1 align="center">GraphQL Werkzeug - badass directives for your GraphQL schema.</h1>
+
+<p align="center">
+  <br>
+  <img src="assets/graphql-werkzeug-logo.svg" alt="angular-logo" width="80px" height="80px"/>
+  <br>
+  <br>
+  <i>A powerful collection of pre-built directives for your next GraphQL project.</i>
+  <br>
+  <br>
+</p>
+
+<div align="center">
+  <a href="https://npmjs.org/package/@ekkolon/graphql-werkzeug">
+    <img src="https://img.shields.io/npm/v/@ekkolon/graphql-werkzeug.svg" />
+  </a>&nbsp;
+  <a href="https://github.com/google/gts">
+    <img src="https://img.shields.io/badge/code%20style-google-blueviolet.svg" />
+  </a>&nbsp;
+  <br>
+  <br>
 </div>
 
-[![NPM Version][npm-image]][npm-url]
-[![TypeScript Style Guide][gts-image]][gts-url]
+<hr>
 
-<h3>A powerful collection of pre-built directives for your GraphQL projects.</h3>
-
-This project makes it easy to add advanced functionality to your GraphQL schema, allowing you to customize your API to fit your specific needs.
-
-With [GraphQL Werkzeug][npm-url], you can easily compose types, enforce value restrictions and access permissions and other important features to your GraphQL API.
+With [GraphQL Werkzeug][npm-url], you can easily compose types, enforce value restrictions and access permissions and add other important features to your GraphQL API.
 
 Try it out today and see how it can improve your GraphQL development process.
 
