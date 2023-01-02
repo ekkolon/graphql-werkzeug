@@ -29,7 +29,7 @@ Try it out today and see how it can improve your GraphQL development process.
 
 _Note: This project is still under active development. Therefore, some features may change at any time._
 
-## Table of content
+## Table of contents
 
 - [Features](#features)
   - [Directives](#directives)
