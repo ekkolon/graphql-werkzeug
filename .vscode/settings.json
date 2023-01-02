@@ -5,6 +5,7 @@
     "tests",
     "directives",
     "dev-deps",
-    "release"
+    "release",
+    "peer-deps"
   ]
 }
