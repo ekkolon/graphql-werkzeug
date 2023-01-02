@@ -183,6 +183,55 @@ function lenghtDirectiveMapperFactory(
 const DIRECTIVE_LOCATIONS = 'FIELD_DEFINITION | INPUT_FIELD_DEFINITION';
 const DIRECTIVE_ARGS = 'min: Int, max: Int';
 
+/**
+ * Factory function to generate a GraphQL directive to enforce a minimum/maximum length
+ * for a string-valued field.
+ *
+ * @param directiveName The name of the directive in the GraphQL schema.
+ * @throws {Error} When neither `min` nor `max` argument is provided.
+ * @throws {LengthValueError} When both min and max arguments are provided and the field's value
+ *  fails to meet the following precondition: min >= value <= max
+ * @throws {LengthValueError} When only min argument is provided and the field's value
+ *  fails to meet precondition `value >= min`.
+ * @throws {LengthValueError} When only max argument is provided and the field's value
+ *  fails to meet precondition `value <= max`.
+ * @throws {Error} When the field the directive is applied to is not a `GraphQLScalar` type.
+ * @returns Object that contains the GraphQL schema definition for the directive
+ *  and a transformer factory function to apply the directive to the GraphQL schema.
+ *
+ * @example
+ * ```ts
+ *  const lengthDirective = lengthDirectiveFactory('length');
+ *  const lengthDirectiveTransformer = lengthDirective.transformer;
+ *  const lengthDirectiveTypeDefs = lengthDirective.typeDefs;
+ *
+ *  const typeDefs = `
+ *   ...
+ *   ${lengthDirectiveTypeDefs}
+ *  `;
+ *
+ *  let schema = makeExecutableSchema({ typeDefs, resolvers });
+ *  schema = lengthDirectiveTransformer(schema);
+ * ```
+ *
+ * Use it as follows in any of your GraphQL files or definitions:
+ *
+ * ```graphql
+ *  type Book {
+ *    # Book title with a length of at most 80 characters.
+ *    title: String! @length(max: 80)
+ *
+ *    publishedAt: String!
+ *  }
+ *
+ * type Author {
+ *    name: String!
+ *
+ *    # An alias for an Author with a length of at least 2 and at most 32 characters.
+ *    alias: String @length(min: 2, max: 32)
+ *  }
+ * ```
+ */
 export function lengthDirectiveDefinitionFactory(
   directiveName: string
 ): DirectiveDefinition {
